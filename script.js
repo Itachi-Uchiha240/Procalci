@@ -7,6 +7,7 @@ form.addEventListener('submit', (event) => {
 
   const investment = parseFloat(document.getElementById('investment').value);
   const expectedReturn = parseFloat(document.getElementById('expected-return').value);
+  console.log(expectedReturn);
   const numDays = parseInt(document.getElementById('num-days').value);
 
   // Validate user input (all fields should be valid numbers)
