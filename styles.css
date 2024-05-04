@@ -96,6 +96,7 @@ table {
 }
 
 th, td {
+  font-weight:700;
   padding: 0.5rem;
   text-align: right;
   border: 1px solid #333; /* Cartoon-style border */
